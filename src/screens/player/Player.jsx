@@ -9,7 +9,6 @@ import Queue from "../../components/queue/Queue";
 
 function Player() {
   const location = useLocation();
-  console.log(location);
 
   const [tracks, setTracks] = useState([]);
   const [currentTrack, setCurrentTrack] = useState({});

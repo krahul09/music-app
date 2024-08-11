@@ -5,14 +5,14 @@ import { IconContext } from "react-icons";
 import { FiChevronRight } from "react-icons/fi";
 
 function WidgetCard({ title, similar, featured, newRelease }) {
-  console.log(
-    "similar",
-    similar,
-    "featured",
-    featured,
-    "newRelease",
-    newRelease
-  );
+  // console.log(
+  //   "similar",
+  //   similar,
+  //   "featured",
+  //   featured,
+  //   "newRelease",
+  //   newRelease
+  // );
 
   return (
     <div className="widgetcard-body">
