@@ -34,11 +34,7 @@ function Home() {
   }, []);
 
   return !token ? (
-    <Router>
-      <Routes>
-        <Route path="/login" element={<Login />} />
-      </Routes>
-    </Router>
+    <Login />
   ) : (
     <Router>
       <div className="main-body">
